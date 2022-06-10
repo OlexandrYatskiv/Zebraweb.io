@@ -528,7 +528,7 @@ font-family: "Helvetica Neue";
 .add_to_card {
 max-width: 215px;
 max-height: 48px;
-margin: 20px 0 0 20px;
+margin: 20px 0 0 40px;
 display: flex;
 justify-content: space-around;
 align-items: center;
