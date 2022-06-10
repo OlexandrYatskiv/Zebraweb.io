@@ -624,7 +624,9 @@ color: #ffffff;
 font-family: "Helvetica Neue";
 }
 
-
+.icon a {
+  margin: 0 5px;
+}
 /*-------------------------------------------------------------------------*/
 @media (min-width: 320px){
 
