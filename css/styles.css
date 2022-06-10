@@ -60,7 +60,7 @@ margin: 0 auto;
 .header__container {
  
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items:center ;
 }
 .header__logo {
