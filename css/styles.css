@@ -82,6 +82,7 @@ background-color: red;
   position: relative;
   width: 30px;
   height: 20px;
+  margin-right: 5px;
 }
 
 .header__burger span{
@@ -215,7 +216,7 @@ margin: 10px auto;
 justify-content: space-around;
 }
 
-.product1, .product2,.product3
+.product1, .product2, .product3
 {
 width: 243px;
 height: 250px;
@@ -244,7 +245,6 @@ position: absolute;
 top: 10px;
 left: 10px;
 line-height: 1.25;
-
 text-transform: uppercase;
 }
 .cost_product_1 {color: #12867f;}
@@ -333,6 +333,7 @@ font-weight: bold;
 font-family: "Helvetica Neue";
 text-transform: uppercase;
 }
+
 
 /*-----------------------------------------------------------------------------------------*/
 .image2 img{
@@ -627,6 +628,7 @@ font-family: "Helvetica Neue";
 .icon a {
   margin: 0 5px;
 }
+
 /*-------------------------------------------------------------------------*/
 @media (min-width: 320px){
 
