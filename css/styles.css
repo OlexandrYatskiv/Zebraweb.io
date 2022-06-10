@@ -1,0 +1,705 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+   list-style: none;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+  
+
+  
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+ display: flex;
+   justify-content: center;
+   align-items:center ;
+height: 86px;
+
+}
+ .__container{
+margin: 0 auto;
+   max-width: 300px;
+ }
+
+
+
+.header__container {
+ 
+   display: flex;
+   justify-content: space-between;
+   align-items:center ;
+}
+.header__logo {
+color: #626262;
+align-items: center;
+font-size: 38px;
+}
+
+.header__logo span {
+  color: #06b5a9;
+
+}
+.header__burger: hover{
+background-color: red;
+}
+
+.header__burger {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 20px;
+}
+
+.header__burger span{
+   position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #626262;
+  left: 0;
+  top: 9px;
+}
+
+.header__burger:before,
+.header__burger:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #626262;
+  left: 0;
+}
+
+
+.header__burger:before {
+top: 0;
+}
+.header__burger:after {bottom: 0;}
+
+.menu__items 
+{
+  display: none;
+
+
+}
+
+.menu__list:hover {
+  color: red;
+}
+
+.menu__list {
+  font-size: 18px;
+line-height: 20px;
+color: #626262;
+font-family: "Helvetica Neue";
+}
+.main {flex: 1 1 auto;}
+
+
+.menu__list{
+
+}
+
+.menu__item{
+margin: 0 10px; 
+ }
+
+.triangle_shop{
+ width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid  #b2b2b2;
+
+}
+.shop {
+  align-items: center;
+  display: flex;
+
+ 
+
+}
+.purchase_price {
+  font-size: 24px;
+line-height: 20px;
+margin: 0 5px;
+color: #9d9d9d;
+font-family: "Helvetica Neue";
+}
+/*-----------------------------------------------------------------------------------------*/
+.image {
+
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+
+.image img {
+  position: relative;
+  display: inline-block;
+  z-index: -1;
+  margin: 0 auto;
+  width: 100%;
+}
+.banner__words
+ {
+  
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+   text-align: center;
+margin-top: -50%;
+margin-bottom: 45%; 
+}
+
+.words1 {
+  font-size: 21px;
+letter-spacing: 20px;
+line-height: 10px;
+color: #ffffff;
+font-family: "Helveti";
+
+}
+
+
+.words2 
+ {
+margin:10px auto;
+  font-size: 35px;
+line-height: 20px;
+color: #ffffff;
+font-family: "Impact";}
+
+/*-----------------------------------------------------------------------------------------*/
+.products {
+    display: flex;
+flex-wrap: wrap;
+margin: 10px auto;
+justify-content: space-around;
+}
+
+.product1, .product2,.product3
+{
+width: 243px;
+height: 250px;
+margin: 5px 0;
+  display:flex;
+  position: relative;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+
+.product1
+ {
+background-color: #58dbd2;
+}
+
+
+
+.__t-shirt__name{
+  font-size: 20px;
+line-height: 20px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Helvetica Neue";
+position: absolute;
+top: 10px;
+left: 10px;
+line-height: 1.25;
+
+text-transform: uppercase;
+}
+.cost_product_1 {color: #12867f;}
+
+.cost_product_2 {color: #5e4c38;}
+
+
+._cost {font-size: 49px;
+line-height: 32px;
+font-weight: bold;
+font-family: "Helvetica Neue";
+position: absolute;
+left: 10px;
+bottom: 10px;}
+
+.cost_product_3 {color: #414049;}
+
+
+.product2{background-color: #e3cd99;}
+
+.product3 {background-color: #ffa7ce;}
+
+.dribbble{
+  text-transform: uppercase;
+  width: 168px;
+height: 108px;
+font-size: 20px;
+line-height: 20px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Helvetica Neue";
+}
+
+
+.product4 
+{
+   margin: 5px 0;
+  position: relative;
+width: 243px;
+height: 250px;
+background-color: #f2ca65;
+}
+.reverse__50{
+  transform-style: preserve-3d;
+  position: absolute;
+  margin: 15px;
+position: ;
+}
+.reverse__50 p {
+   position: absolute;
+   top: 10px;
+ transform: rotateX(180deg);
+ font-size: 106px;
+line-height: 25px;
+color: #ffffff;
+font-weight: bold;
+font-family:"Helvetica Neue";;
+}
+
+.off {
+   margin: 15px;
+  position: absolute;
+  top: 120px;
+  font-size: 64px;
+line-height: 25px;
+color: #ffffff;
+font-weight: bold;
+font-family: "Helvetica Neue";
+text-transform: uppercase;
+}
+
+
+.go__block {width: 145px;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+height: 35px;
+display: flex;
+align-items: center;
+background-color: #fff;}
+
+.lets__go {font-size: 26px;
+line-height: 6px;
+color: #f2ca66;
+font-weight: bold;
+font-family: "Helvetica Neue";
+text-transform: uppercase;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.image2 img{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  
+  overflow: hidden;
+  object-fit: cover;
+  z-index: -1;
+
+}
+
+.image2 {
+  margin-top: 25px;
+  width: 100%;
+ position: relative; 
+ z-index: 1;
+}
+.categories_tittle {
+text-align: center;
+  font-size: 50px;
+line-height: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Josefin Slab";
+}
+
+.categories {
+display: flex;
+align-items: flex;
+justify-content: start;
+flex-direction: column;
+margin-top: -50%;
+margin-bottom: 50%;
+}
+
+.categories__circle {
+position: absolute;
+justify-content: space-between;
+display: flex;
+justify-self: flex-start;
+align-self: end;
+top: 130%;
+
+
+}
+
+
+.circle__img{
+  max-width: 60%;
+  margin: 0 auto;
+ 
+}
+
+._circle {
+  width: 13vw;
+height: 13vw;
+ display: flex;
+ justify-self: center;
+ align-items: center;
+border-radius: 50%;
+background-color: #58dbd3;
+}
+
+.circle2 {
+  margin-top: 5px;
+opacity: 0.4;
+}
+.circle3 {
+  margin-top: -10px;
+opacity: 0.6;
+}
+.circle4 {
+    margin-top: 10px;
+opacity: 0.8;
+}
+
+.circle0 {
+  margin-left:-6vw;
+  opacity: 0.4;
+}
+ 
+
+.circle1{
+    margin-top: -15px;
+  opacity: 0.8;
+}
+
+
+
+.circle1 img {
+width: 40%;
+
+margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+.levis_logo {
+
+  display: none;
+margin: -40px 0 0 0;
+max-width: 100%;
+justify-content: flex-start;
+position: relative;
+z-index: 3;
+ 
+}
+.logo_img {
+  
+  margin-left: -5px;
+}
+
+
+.levis_photo img{
+  max-width: 100%;
+  object-fit: cover;
+
+}
+
+
+.triangle1 {
+ width: 0;
+ height: 0;
+
+  border-left: 20px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 20px solid #6c000a; 
+  
+}
+.triangle2 {
+  margin-left: -5px;
+  
+ width: 0;
+ height: 0;
+  border-right: 20px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 20px solid #6c000a; 
+  
+}
+.levis {margin-left: -5px;
+  display: inline-block;
+
+}
+.main__container{
+max-height: 100%;
+
+}
+.jeans__levis{
+display: flex;
+
+
+}
+
+.levis__name{
+
+font-size: 50px;
+line-height: 35px;
+color: #1d1d1d;
+font-weight: bold;
+font-family: "Helvetica Neue";}
+.levis__text {
+
+  margin-top: 20px;
+ max-width: 550px;
+max-height: 140px;
+font-size: 14px;
+line-height: 20px;
+color: #1d1d1d;
+font-family:
+ "Helvetica Cyr"
+}
+.levis__photo  {
+
+display:  none;
+
+}
+
+
+.rate{
+  margin-top: 20px;
+  word-spacing: 3px;
+  font-size: 23px;
+line-height: 20px;
+color: #1d1d1d;
+font-family: "Helvetica Neue";
+}
+
+.rate span{
+  font-weight: 700;
+}
+
+.add_to_card {
+max-width: 215px;
+max-height: 48px;
+margin: 20px 0 0 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #d62132;
+
+
+}
+
+.add_to_card:hover {
+  background-color: #ffffff;
+}
+.add_to_card p:hover {
+  color: #d62132;
+}
+.add_to_card p{
+  margin: 4;
+ font-size: 28px;
+line-height: 20px;
+color: #ffffff;
+font-family: "Helvetica Neue";
+}
+
+.display {
+display: flex;
+justify-self: space-between;
+margin-top: 50px;
+
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+.pants__items {  
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+.pants img{
+    position: relative;
+  display: block;
+  
+}
+.pants {
+margin: 10px auto;
+
+
+}
+
+.jeans_name
+{
+  padding-top: 5px;
+  font-size: 16px;
+line-height: 20px;
+color: #1d1d1d;
+font-family: "Helvetica Neue";
+  text-align: center;
+}
+.footer 
+{width: 100%;
+height: 100px;
+display: flex;
+align-items: center;
+background-color: #1b232f;}
+
+.footer__conrainer
+ {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+
+.footer__name
+ {
+  font-size: 38px;
+line-height: 20px;
+color: #626262;
+font-weight: bold;
+font-family: "Helvetica Neue";
+margin-bottom: 5px;
+}
+
+
+.footer__name span
+{
+color: #06b5a9;
+}
+
+.copyright 
+{font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+font-family: "Helvetica Neue";
+}
+
+
+/*-------------------------------------------------------------------------*/
+@media (min-width: 320px){
+
+.__container{
+  min-width: 300px;
+}
+}
+
+
+@media (min-width: 375px){
+
+.__container{
+  min-width: 320px;
+}
+}
+
+@media (min-width: 425px){
+
+.__container{
+  min-width: 375px;
+}
+.levis_logo {
+
+  display: flex;
+  }
+}
+
+@media (min-width: 768px){
+
+.__container{
+  min-width: 750px;
+}
+
+}
+
+@media (min-width: 992px){
+
+.__container{
+  min-width: 950px;
+}
+.header__burger{
+  display: none;
+}
+.menu__items{
+  display: flex;
+
+}
+.levis__photo  {
+
+display:  flex;
+
+}
+.words1 {
+  font-size: 48px;
+
+
+}
+
+
+.words2 
+ {
+margin:55px auto;
+  font-size: 116px;
+}
+
+
+}
+@media (min-width: 1024px){
+.levis__photo  {
+
+display: flex;
+
+}
+
+.__container{
+  min-width: 992px;
+}
+}
